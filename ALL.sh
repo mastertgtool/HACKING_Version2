@@ -41,9 +41,10 @@ echo -e '\033[31;38;1m
  \033[1;36m   ┏━━━━━━━━━━━━━━━━┓
        SPAM TOOL V4
     ┗━━━━━━━━━━━━━━━━┛
-\033[1;34m[16]\e[35m TIKTOK LIKE BOT V1 \033[1;32m Update New  
-\033[1;34m[17]\e[35m TIKTOK VIEW BOT V2 \033[1;32m New 
-\033[1;34m[18]\e[35m GMAIL PASSWORD \033[1;32m New 
+ \033[1;34m[16]\e[35m TIKTOK LIKE BOT V1 \033[1;32m Update New  
+ \033[1;34m[17]\e[35m TIKTOK VIEW BOT V2 \033[1;32m New 
+ \033[1;34m[18]\e[35m GMAIL PASSWORD \033[1;32m New 
+ \033[1;34m[19]\e[35m FB SHARE V1 \033[1;32m Update New 
 '
 
 
@@ -247,6 +248,15 @@ git clone https://github.com/mastertgtool/Gmail-Password.git
 cd Gmail-Password
 bash install.sh
 python3 Mail-Hack.py
+
+## FB AOTO SHARE V1
+elif [[ $islem == 19|| $islem == 19 ]]; then
+clear
+echo -e "\033[47;3;35m  Installation May Take a Long Time Wait\033[0m"
+sleep 3
+https://github.com/mastertgtool/AOTO_FB_SHARE.git
+cd AOTO_FB_SHARE
+python AOTO_SHARE.py
 
 ## Faulty code
 
